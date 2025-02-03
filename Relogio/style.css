@@ -67,7 +67,9 @@ section{
 }
 
 .clima img {
-    width: 24px;
+    width: 55px;
+    height: 55px;
+    margin-right: 5px;
     margin-left: 5px;
 }
 
@@ -78,20 +80,85 @@ section{
     text-align: left;
     gap: 0;
 }
-
 #bottom-alarme{
     background-color: #a77cff;
     color: black;
 }
 
+#text-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.area-login{
+    width: 300px;
+    height: 350px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    color: white;
+}
+
+.area-login h2 {
+    margin-bottom: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.login-button {
+    background-color: #6828fd;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.google-button {
+    background-color: #e598f0;
+    color: black;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+a :visited {
+    color: purple;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
 header {
     height: 50px;
     text-align: left;
     color: #ffffff;
-    background: linear-gradient(90deg, #d782df, #8c52ff);
+    background: linear-gradient(90deg,  #0D47A1, #AB47BC);
     padding-left: 10px;
     display: flex;
     align-items: center; 
+    opacity: 0.8;
+    padding-right: 10px;
+    justify-content: space-between;
 }
 
 h1 {
@@ -101,10 +168,23 @@ h1 {
     margin: 0; 
 }
 
+h2 {
+    font-family: Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0; 
+    cursor: pointer;
+}
+
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;     
     text-align: center;
-    background: linear-gradient(90deg, #d782df, #8c52ff);
+    background: linear-gradient(90deg, #0D47A1, #AB47BC);
     color: #ffffff;
+    height: 30px;
     font-family: Verdana, sans-serif;
     font-weight: 400;
+    opacity: 0.8; 
 }
