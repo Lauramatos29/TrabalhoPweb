@@ -14,18 +14,20 @@
     <section>
         <div class="area-cad">
             <h2>Digite seus dados</h2>
-
-            <input type="email" placeholder="Email">
+            <form action="cadastro.php" method="POST">
             
-            <input type="text" placeholder="Nome Completo">
-
-            <input type="date" placeholder="Data de Nascimento">
-
-            <input type="phonenumber" placeholder="(XX) XXXXX-XXXX - Telefone">
-
-            <input type="password" placeholder="Senha">
-
-            <button class="cad-button">CADASTRAR-SE</button>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                    
+                <input type="text" id="nome" name="nome" placeholder="Nome Completo" required>
+                    
+                <input type="date" id="data_nascimento" name="data_nascimento" required>
+                    
+                <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+                    
+                <input type="password" id="password" name="password" placeholder="Senha" required>
+                    
+                <button type="submit" class="cad-button">CADASTRAR-SE</button>
+            </form>
         </div>
     </section>
 
