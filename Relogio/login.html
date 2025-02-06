@@ -16,17 +16,21 @@
     <section>
         <div class="area-login">
             <h2>Que bom que voltou! Faça seu login</h2>
-            <input type="email" placeholder="Email">
+            
+            <form action="login.php" method="POST">
+                
+                <input type="email" id="email" name="email" placeholder="Email" required>
 
-            <input type="password" placeholder="Senha">
+                <input type="password" id="password" name="password" placeholder="Senha" required>
 
-            <button class="login-button">LOGIN</button>
-
+                <button type="submit" class="login-button">LOGIN</button>
+                
+            </form>
+            
             <button class="google-button">ENTRAR COM GOOGLE</button>
-
+    
             <p><a href="#">Esqueci minha senha</a></p>
-
-            <p>Não tem conta?<a href="file:///C:/Users/Aluno/Desktop/PWEB/cad.html"><u>Cadastre-se</u></a></p>
+            <p>Não tem conta? <a href="file:///C:/Users/laura/Desktop/PWEB/cad.html"><u>Cadastre-se</u></a></p>
     </section>
 
     <footer>
