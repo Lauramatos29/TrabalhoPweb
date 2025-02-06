@@ -140,6 +140,27 @@ a :visited {
     color: purple;
 }
 
+.area-cad{
+    width: 300px;
+    height: 350px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    color: white;
+}
+
+.cad-button{
+    background-color: #6828fd;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 input {
     width: 100%;
     padding: 10px;
