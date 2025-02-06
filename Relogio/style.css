@@ -80,9 +80,27 @@ section{
     text-align: left;
     gap: 0;
 }
+
 #bottom-alarme{
-    background-color: #a77cff;
-    color: black;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    border: none;
+    font-family: "system-ui";
+    color: rgba(255, 255, 255, 0.877);
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 110px;
+    height: 30px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+}
+
+#bottom-alarme:hover{
+    color: rgb(255, 255, 255);
+    width: 110px;
+    background: #184b99 none repeat scroll 0% 0% / auto padding-box border-box;
+    border-color: none;
+    border-width: 1.6px;
 }
 
 #text-login{
@@ -135,9 +153,6 @@ input {
     cursor: pointer;
     margin-top: 10px;
     margin-bottom: 20px;
-}
-a :visited {
-    color: purple;
 }
 
 .area-cad{
